@@ -1303,7 +1303,7 @@ input.form-control, select.form-control {
 }
 
 .main_mission .single_mission{
-    padding: 6rem 2rem;
+    padding: 80px 0 0;
     min-height: 400px;
 }
 
@@ -4734,4 +4734,63 @@ nav.navbar.bootsnav ul.nav > li > a {
 }
 #success_page {
     margin: 10px 0;
+}
+
+
+
+
+.services {
+    background: #017cc0;
+    padding-bottom: 75px
+}
+
+.services .services_card {
+    background-color: #fff;
+    border-radius: 4px;
+    overflow: hidden
+}
+
+.services .services_card_content h3 {
+    color: #017cc0
+}
+
+.services .services_card_content ul {
+    margin: 30px 0 0;
+    padding: 0;
+    list-style: none
+}
+
+.services .services_card_content ul li button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: #7d6321e6;
+    border-bottom: dashed 1px #7d63215e;
+    text-align: left;
+    margin-bottom: 5px
+}
+
+.services .services_card_content ul li button:hover {
+    color: #7d6321;
+    border-bottom: dashed 1px #7d6321
+}
+
+.services .services_card_content ul li button:focus {
+    outline: 0
+}
+
+.services .services_card_content ul li button:before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 3px;
+    float: left;
+    margin: 5px 10px 0 0;
+    background-color: #017cc0
+}
+
+.services .services_card_content p {
+    margin: 30px 0 0;
+    color: #000
 }
